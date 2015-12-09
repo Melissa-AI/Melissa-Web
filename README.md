@@ -1,6 +1,8 @@
 ## Melissa-Web
 Melissa-Web is the web interface for the [Melissa-Core](https://github.com/Melissa-AI/Melissa-Core) repository. It provides the user a web-based interface for operating Melissa on their systems.
 
+IMPORTANT: Please note that open pull requests in this repository only if you wish to contribute to the functionality of the web interface. If you wish to enhance Melissa's capabilities, you should head over to [Melissa-Core](https://github.com/Melissa-AI/Melissa-Core). Also note that this repository will be synched with `Melissa-AI/Melissa-Core` only after ceratin periods of time (unless someone opens a PR to do that).
+
 ### Installation
 The installation steps are esentially the same as that of Melissa-Core, however, there are a few changes to the `requirements.txt` file.
 
@@ -14,7 +16,7 @@ xcode-select --install
 You will need to install [PortAudio](http://www.portaudio.com/download.html) and [PyAudio](http://people.csail.mit.edu/hubert/pyaudio/). Now run the following commands:
 
 ```
-git clone https://github.com/tanay1337/Melissa.git
+git clone https://github.com/Melissa-AI/Melissa-Web.git
 cd Melissa
 pip install -r requirements.txt --allow-external pywapi --allow-unverified pywapi
 cp profile.yaml.default profile.yaml
@@ -36,4 +38,4 @@ After forking `Melissa-AI/Melissa-Web` and making the appropriate changes, open 
 
 ### Licence
 
-[The MIT License (MIT)](https://github.com/Melissa-AI/Melissa-Core/blob/master/LICENSE.md)
+[The MIT License (MIT)](https://github.com/Melissa-AI/Melissa-Web/blob/master/LICENSE.md)
