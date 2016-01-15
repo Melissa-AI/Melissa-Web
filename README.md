@@ -21,6 +21,7 @@ cd Melissa
 pip install -r requirements.txt --allow-external pywapi --allow-unverified pywapi
 cp profile.yaml.default profile.yaml
 cp memory.db.default memory.db
+mkdir uploads
 ```
 
 #### For Linux Systems
